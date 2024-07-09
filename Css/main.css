@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: White;
+  background-image: url(../Imagenes/Fondo-1.png);
+  background-size: 80%;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  background-color: #2F817B;
+  color: White;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #2F817B;
+  color: White;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+h3 {
+  background-color: #2F817B;
+  color: White;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline;
+}
+
+.Menu {
+  background-color: #2F817B;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+Nav img {
+  height: 50px;
+  width: 150px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.Inicio {
+  padding: 15px;
+  border-radius: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.parrafo1 {
+  background-color: #2F817B;
+  padding: 1rem;
+}
+
+.footImg {
+  background-color: #2F817B;
+  font-size: 0.5 rem;
+  text-align: center;
+}
+
+.Lista1 {
+  padding: 1rem;
+  background-color: #2F817B;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Img_inicio img {
+  border: 10px solid #E27A7A;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 500px;
+}
+
+.kiwano_text {
+  background-color: #2F817B;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  line-height: normal;
+}
+
+.parrafoServ {
+  padding: 1rem;
+  background-color: #2F817B;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+
+.serv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #2F817B;
+  margin-top: 100px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: White;
+}
+footer img {
+  height: 20px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

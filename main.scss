@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+$color1: #2F817B;
+$color2: White;
+$color3: #E27A7A;
+
+
+body {
+    background-color: $color2; 
+    background-image: url(../Imagenes/Fondo-1.png); 
+    background-size: 80%; 
+    background-attachment: fixed; 
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    a {
+        text-decoration: none; 
+        color: white
+    }
+    }
+
+h1 {
+    background-color: $color1;
+    color: $color2; 
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    background-color: $color1;
+    color: $color2; 
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    background-color: $color1;
+    color: $color2; 
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline;
+}
+
+.Menu {
+    background-color: $color1; 
+    padding: 10px; 
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+Nav img {
+    height: 50px; 
+    width: 150px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.Inicio {
+    padding: 15px; 
+    border-radius: 20px; 
+    line-height: 1.5; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.parrafo1 {
+    background-color: $color1; 
+    padding: 1rem;
+}
+
+.footImg {
+    background-color: $color1;
+    font-size: 0.5 rem;
+    text-align: center;
+}
+
+.Lista1 {
+    padding: 1rem; 
+    background-color: $color1; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    text-align: left;
+}
+
+.Img_inicio img {
+    border: 10px solid $color3; 
+    max-width: 80%; 
+    display: block; 
+    margin: auto; 
+    border-radius: 500px;
+}
+
+.kiwano_text {
+    background-color: $color1;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    text-align: left;
+    line-height: normal; 
+   }
+
+.parrafoServ {
+    padding: 1rem; 
+    background-color: $color1; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    text-align: left;
+}
+
+.serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+        background-color: $color1; 
+        margin-top: 100px; 
+        font-size: 0.9rem; 
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        align-items: center;
+
+        a {
+            text-decoration: none; 
+            color: $color2;
+        }
+
+        img {
+            height: 20px; 
+            width: 20px;
+        }
+    }
