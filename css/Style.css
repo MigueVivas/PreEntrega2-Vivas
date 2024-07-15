@@ -6,53 +6,45 @@
     box-sizing: border-box;
 }
 
-$color1: #2F817B;
-$color2: White;
-$color3: #E27A7A;
-
-
-body {
-    background-color: $color2; 
+body{
+    background-color: white; 
     background-image: url(../Imagenes/Fondo-1.png); 
     background-size: 80%; 
     background-attachment: fixed; 
     color: white;
     font-family: "Montserrat", sans-serif;
-    a {
-        text-decoration: none; 
-        color: white
-    }
     }
 
 h1 {
-    background-color: $color1;
-    color: $color2; 
+    background-color: rgba(47, 129, 123, 0.9); 
+    color: white; 
     font-weight: bold;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 5px; 
+    padding: 5px;  
     text-align: center;
 }
 
 h2 {
-    background-color: $color1;
-    color: $color2; 
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: rgba(47, 129, 123, 0.9); 
+    color: white; 
+    border-radius: 5px; 
+    padding: 5px; 
     text-align: center;
+    font-weight: bold;
 }
 
 h3 {
-    background-color: $color1;
-    color: $color2; 
-    font-weight: bold;
-    border-radius: 5px;
+    background-color: rgba(47, 129, 123, 0.9); 
+    color: white; 
+    border-radius: 5px; 
     padding: 5px;
     display: inline;
+    font-weight: bold;
 }
 
 .Menu {
-    background-color: $color1; 
+    font-family: "Montserrat", sans-serif; 
+    background-color: #2F817B; 
     padding: 10px; 
     list-style-type: none; 
     display: flex; 
@@ -60,6 +52,11 @@ h3 {
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     align-items: center;
+}
+
+a {
+    text-decoration: none; 
+    color: white
 }
 
 Nav img {
@@ -83,19 +80,19 @@ a:hover {
 }
 
 .parrafo1 {
-    background-color: $color1; 
+    background-color: rgba(47, 129, 123, 0.9); 
     padding: 1rem;
 }
 
 .footImg {
-    background-color: $color1;
+    background-color: rgba(47, 129, 123, 0.9);
     font-size: 0.5 rem;
     text-align: center;
 }
 
 .Lista1 {
     padding: 1rem; 
-    background-color: $color1; 
+    background-color: rgba(47, 129, 123, 0.9); 
     display: flex; 
     flex-wrap: wrap; 
     flex-direction: column; 
@@ -103,7 +100,7 @@ a:hover {
 }
 
 .Img_inicio img {
-    border: 10px solid $color3; 
+    border: 10px solid #e27a7a; 
     max-width: 80%; 
     display: block; 
     margin: auto; 
@@ -111,7 +108,7 @@ a:hover {
 }
 
 .kiwano_text {
-    background-color: $color1;
+    background-color: rgba(47, 129, 123, 0.9);
     border-radius: 20px;
     display: flex; 
     flex-wrap: wrap; 
@@ -122,7 +119,7 @@ a:hover {
 
 .parrafoServ {
     padding: 1rem; 
-    background-color: $color1; 
+    background-color: rgba(47, 129, 123, 0.9); 
     display: flex; 
     flex-wrap: wrap; 
     flex-direction: column; 
@@ -137,22 +134,27 @@ a:hover {
     text-align: center;
 }
 
+
 footer {
-        background-color: $color1; 
-        margin-top: 100px; 
-        font-size: 0.9rem; 
-        display: flex; 
-        justify-content: space-between; 
-        flex-wrap: wrap; 
-        align-items: center;
+    background-color: rgba(47, 129, 123, 0.9); 
+    margin-top: 100px; 
+    font-size: 0.9rem; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    align-items: center;
+}
+footer a {
+    text-decoration: none; 
+    color: white;
+}
+footer img {
+    height: 20px; 
+    width: 20px;
+}
+/*Colors:
+- #2F817B/ rgba(47, 129, 123)
+- White
+- #E27A7A/ rgba(226, 122, 122)
+*/
 
-        a {
-            text-decoration: none; 
-            color: $color2;
-        }
-
-        img {
-            height: 20px; 
-            width: 20px;
-        }
-    }
