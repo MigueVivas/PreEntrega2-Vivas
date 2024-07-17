@@ -13,14 +13,21 @@
     </head>
     <body>
         <header>
-            <nav class="Menu"> 
-            <a href="../pages/Sobremi.html" title="Sobre mi">Sobre mi</a>
-            <a href="../pages/Experiencia.html" title="Experiencia y Trabajos Realizados">Experiencia</a>
-            <a href="../index.html">
-                <img src="../imagenes/Fanny_Mora_Logo.png" alt="Fanny Logo">
-            </a>
-            <a href="../pages/Servicios.html" title="Servicios">Servicios</a>
-            <a href="../pages/Contacto.html" title="Contacto">Contacto</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/Fanny_Mora_Logo.png" alt="Fanny Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="menu">
+                        <li class="nav-item"><a class="nav-link" href="../pages/Sobremi.html" title="Sobre mi">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/Experiencia.html" title="Experiencia y Trabajos Realizados">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Servicios.html" title="Servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/Contacto.html" title="Contacto">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         
         </header>
@@ -32,7 +39,7 @@
             <div class="row">
                 <Div class="col serv">
                     <h3>Estrategia de Marketing</h3>
-                    <ul class="parrafoServ">
+                    <ul class="parrafoServ transf_right">
                         <li><b>Desarrollo de Estrategias de Marketing:</b> Creación de planes de marketing personalizados que alinean los objetivos de la marca con las tendencias del mercado y las necesidades del público objetivo.</li>
                         <li><b>Investigación de Mercado:</b> Análisis de mercado para identificar oportunidades, comprender a los competidores y conocer mejor al público.</li>
                         <li><b>Posicionamiento de Marca:</b> Definición de la propuesta de valor y posicionamiento de la marca en el mercado.</li>
@@ -41,7 +48,7 @@
 
                 <div class="col serv">
                     <h3>Publicidad y Promoción</h3>
-                    <ul class="parrafoServ">
+                    <ul class="parrafoServ transf_tex">
                         <li><b>Campañas Publicitarias:</b> Diseño y gestión de campañas publicitarias en diversos medios (digitales, impresos, televisión, etc.).</li>
                         <li><b>Promociones y Eventos:</b> Organización de eventos de moda, lanzamientos de productos, desfiles y promociones especiales para aumentar la visibilidad de la marca.</li>
                         <li><b>Relaciones Públicas:</b> Gestión de relaciones con medios de comunicación, bloggers, influencers y otros stakeholders para generar cobertura mediática positiva.</li>
@@ -49,7 +56,7 @@
                 </div>
                 <div class="col serv">
                     <h3>Marketing Digital</h3>
-                    <ul class="parrafoServ">
+                    <ul class="parrafoServ transf_left">
                         <li><b>Gestión de Redes Sociales:</b> Creación y ejecución de estrategias de contenido en plataformas como Instagram, Facebook, TikTok, y otras redes sociales relevantes.</li>
                         <li><b>Marketing de Influencers:</b> Identificación y colaboración con influencers que alineen con la marca para promover productos y aumentar la visibilidad.</li>
                         <li><b>Email Marketing:</b> Desarrollo de campañas de email marketing para mantener a los clientes informados y comprometidos con la marca.</li>
@@ -58,7 +65,7 @@
                 <div class="row">
                     <div class="col serv">
                         <h3>Comercio Electrónico</h3>
-                        <ul class="parrafoServ">
+                        <ul class="parrafoServ transf_right">
                             <li><b>Optimización de Tienda Online:</b> Mejora de la experiencia de usuario y la conversión en sitios web de comercio electrónico.</li>
                             <li><b>SEO y SEM:</b> Implementación de estrategias de optimización en motores de búsqueda y campañas de marketing en motores de búsqueda para aumentar el tráfico y las ventas online.</li>
                             <li><b>Gestión de Marketplaces:</b> Administración de la presencia de la marca en marketplaces como Tiendanube y WooComerce.</li>
@@ -66,14 +73,14 @@
                     </div>
                     <div class="col serv">
                         <h3>Análisis y Reporting</h3>
-                        <ul class="parrafoServ">
+                        <ul class="parrafoServ transf_tex">
                             <li><b>Análisis de Datos:</b> Recopilación y análisis de datos de campañas de marketing para evaluar su rendimiento y tomar decisiones informadas.</li>
                             <li><b>Informes de ROI:</b> Creación de informes detallados sobre el retorno de inversión de las iniciativas de marketing para medir su efectividad.</li>
                         </ul>
                     </div>
                     <div class="col serv">
                         <h3>Formación y Consultoría</h3>
-                        <ul class="parrafoServ">
+                        <ul class="parrafoServ transf_left">
                             <li><b>Capacitación en Marketing:</b> Ofrecimiento de talleres y seminarios para capacitar a los equipos internos en las últimas tendencias y técnicas de marketing de moda.</li>
                                 <li><b>Consultoría Estratégica:</b> Asesoramiento continuo para ayudar a las marcas a adaptarse a las cambiantes condiciones del mercado y aprovechar nuevas oportunidades.</li>
                         </ul>
@@ -106,6 +113,9 @@
              <img src="../imagenes/Logo_Dischord.png" alt="Logo Dischord">
              </div>
          
-         </footer>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>      
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="../Js/script.js"></script>      
     </body>

@@ -14,25 +14,30 @@
 <body>
    
 <header>
-    <nav> 
-    <ul class="Menu">
-        <li><a href="./pages/Sobremi.html" title="Sobre mi">Sobre mi</a></li>
-        <li><a href="./pages/Experiencia.html" title="Experiencia y Trabajos Realizados">Experiencia</a></li>
-        <a href="./index.html">
-        <img src="./imagenes/Fanny_Mora_Logo.png" alt="Fanny Logo">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./imagenes/Fanny_Mora_Logo.png" alt="Fanny Logo">
         </a>
-        <li><a href="./pages/Servicios.html" title="Servicios">Servicios</a></li>
-        <li><a href="./pages/Contacto.html" title="Contacto">Contacto</a></li>
-    </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="menu">
+                <li class="nav-item"><a class="nav-link" href="./pages/Sobremi.html" title="Sobre mi">Sobre mi</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/Experiencia.html" title="Experiencia y Trabajos Realizados">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/Servicios.html" title="Servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/Contacto.html" title="Contacto">Contacto</a></li>
+            </ul>
+        </div>
     </nav>
 
 </header>
 <main class="Inicio">
     <div><h1>Hola, soy Fanny Mora!</h1></div>
     </div>
-    <div class="Img_inicio"><img src="./imagenes/Img-inicio.png" alt="Imagen Fanny"></div>
+    <div class="Img_inicio transf_img"><img src="./imagenes/Img-inicio.png" alt="Imagen Fanny"></div>
     <div Class="Inicio">
-      <p class="parrafo1">Transformo ideas en estrategias de marketing exitosas. Con 4 años de experiencia, ayudo a empresas a alcanzar sus objetivos a través de campañas publicitarias impactantes, gestión de redes sociales y optimización de estrategias digitales. Mi enfoque personalizado y analítico garantiza soluciones efectivas que impulsan el crecimiento y la fidelidad de la marca. Descubre cómo podemos llevar tu negocio al siguiente nivel y hacer que tu marca destaque en un mercado competitivo.</p>
+      <p class="parrafo1 transf_tex">Transformo ideas en estrategias de marketing exitosas. Con 4 años de experiencia, ayudo a empresas a alcanzar sus objetivos a través de campañas publicitarias impactantes, gestión de redes sociales y optimización de estrategias digitales. Mi enfoque personalizado y analítico garantiza soluciones efectivas que impulsan el crecimiento y la fidelidad de la marca. Descubre cómo podemos llevar tu negocio al siguiente nivel y hacer que tu marca destaque en un mercado competitivo.</p>
     </div>
 </main>
 
@@ -59,10 +64,9 @@
 
 </footer>
 
-<script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-    crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./Js/script.js"></script>
 </body>
 </html>

@@ -45,10 +45,10 @@ h3 {
   display: inline;
 }
 
-.Menu {
+Nav {
   background-color: #2F817B;
+  color: White;
   padding: 10px;
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -56,9 +56,15 @@ h3 {
   align-items: center;
 }
 
+.nav-link.active {
+  background-color: #E27A7A;
+  border-radius: 10px;
+}
+
 Nav img {
   height: 50px;
   width: 150px;
+  margin-left: 0.5rem;
 }
 
 a:hover {
@@ -85,6 +91,25 @@ a:hover {
   background-color: #2F817B;
   font-size: 0.5 rem;
   text-align: center;
+}
+
+.transf_img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.transf_tex:hover {
+  transform: scale(1.05, 1.05);
+  background-color: #19867f;
+}
+
+.transf_right:hover {
+  transform: translate(4px, -4px);
+  background-color: #19867f;
+}
+
+.transf_left:hover {
+  transform: translate(-4px, -4px);
+  background-color: #19867f;
 }
 
 .Lista1 {
