@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./Css/colors";
 
 *{
     padding: 0; 
     margin: 0; 
     box-sizing: border-box;
 }
-
-$color1: #2F817B;
-$color2: White;
-$color3: #E27A7A;
-$color4: #19867f;
 
 body {
     background-color: $color2; 
@@ -23,6 +19,10 @@ body {
         color: white
     }
     }
+
+header {
+    color: $color2;
+}
 
 h1 {
     background-color: $color1;
