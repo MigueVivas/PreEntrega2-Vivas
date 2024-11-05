@@ -8,8 +8,7 @@
 }
 
 body {
-    background-color: $color2; 
-    background-image: url(../imagenes/Fondo-1.png); 
+    background-color: $color1; 
     background-size: 80%; 
     background-attachment: fixed; 
     color: white;
@@ -21,7 +20,8 @@ body {
     }
 
 header {
-    color: $color2;
+    background-color: $color2;
+    color: black;
 }
 
 h1 {
@@ -164,7 +164,7 @@ a:hover {
 }
 
 footer {
-        background-color: $color1; 
+        color: $color1;
         margin-top: 100px; 
         font-size: 0.9rem; 
         display: flex; 
@@ -174,7 +174,7 @@ footer {
 
         a {
             text-decoration: none; 
-            color: $color2;
+            color: $color1;
         }
 
         img {

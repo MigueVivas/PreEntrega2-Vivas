@@ -6,8 +6,7 @@
 }
 
 body {
-  background-color: White;
-  background-image: url(../imagenes/Fondo-1.png);
+  background-color: #100C07;
   background-size: 80%;
   background-attachment: fixed;
   color: white;
@@ -19,12 +18,13 @@ body a {
 }
 
 header {
-  color: White;
+  background-color: #fffaf1;
+  color: black;
 }
 
 h1 {
-  background-color: #2F817B;
-  color: White;
+  background-color: #100C07;
+  color: #fffaf1;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px;
@@ -32,8 +32,8 @@ h1 {
 }
 
 h2 {
-  background-color: #2F817B;
-  color: White;
+  background-color: #100C07;
+  color: #fffaf1;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px;
@@ -41,8 +41,8 @@ h2 {
 }
 
 h3 {
-  background-color: #2F817B;
-  color: White;
+  background-color: #100C07;
+  color: #fffaf1;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px;
@@ -50,8 +50,8 @@ h3 {
 }
 
 Nav {
-  background-color: #2F817B;
-  color: White;
+  background-color: #100C07;
+  color: #fffaf1;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -61,7 +61,7 @@ Nav {
 }
 
 .nav-link.active {
-  background-color: #E27A7A;
+  background-color: #9B9A9C;
   border-radius: 10px;
 }
 
@@ -87,12 +87,12 @@ a:hover {
 }
 
 .parrafo1 {
-  background-color: #2F817B;
+  background-color: #100C07;
   padding: 1rem;
 }
 
 .footImg {
-  background-color: #2F817B;
+  background-color: #100C07;
   font-size: 0.5 rem;
   text-align: center;
 }
@@ -103,22 +103,22 @@ a:hover {
 
 .transf_tex:hover {
   transform: scale(1.05, 1.05);
-  background-color: #19867f;
+  background-color: #3E3B39;
 }
 
 .transf_right:hover {
   transform: translate(4px, -4px);
-  background-color: #19867f;
+  background-color: #3E3B39;
 }
 
 .transf_left:hover {
   transform: translate(-4px, -4px);
-  background-color: #19867f;
+  background-color: #3E3B39;
 }
 
 .Lista1 {
   padding: 1rem;
-  background-color: #2F817B;
+  background-color: #100C07;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .Img_inicio img {
-  border: 10px solid #E27A7A;
+  border: 10px solid #9B9A9C;
   max-width: 80%;
   display: block;
   margin: auto;
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .kiwano_text {
-  background-color: #2F817B;
+  background-color: #100C07;
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -145,7 +145,7 @@ a:hover {
 
 .parrafoServ {
   padding: 1rem;
-  background-color: #2F817B;
+  background-color: #100C07;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -161,7 +161,7 @@ a:hover {
 }
 
 footer {
-  background-color: #2F817B;
+  color: #100C07;
   margin-top: 100px;
   font-size: 0.9rem;
   display: flex;
@@ -171,7 +171,7 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: White;
+  color: #100C07;
 }
 footer img {
   height: 20px;
