@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
+.formatoWeb {
+  flex: 1;
+}
+
 body {
+  min-height: 100vh;
   background-color: #100C07;
-  background-size: 80%;
-  background-attachment: fixed;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -126,7 +129,7 @@ a:hover {
 }
 
 .Img_inicio img {
-  border: 10px solid #9B9A9C;
+  border: 3px solid #fffaf1;
   max-width: 80%;
   display: block;
   margin: auto;
@@ -170,7 +173,7 @@ a:hover {
 
 footer {
   color: #100C07;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 0.7rem;
   display: flex;
   justify-content: space-between;
